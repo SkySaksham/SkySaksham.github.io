@@ -14,17 +14,17 @@
     header {
       background-color: #2c3e50;
       color: white;
-      padding: 20px;
+      padding: 60px 20px; /* Increased height */
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 48px; /* Bigger text */
     }
 
     nav {
-      margin-top: 10px;
+      margin-top: 20px;
     }
 
     nav a {
@@ -40,11 +40,13 @@
     }
 
     main {
-      padding: 20px;
+      padding: 30px;
       max-width: 900px;
       margin: auto;
       background-color: white;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-left: 5px solid #2c3e50;
+      border-right: 5px solid #2c3e50;
     }
 
     section {
@@ -64,6 +66,11 @@
       margin-top: 10px;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 60%; /* Changed to 60% width */
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .projects div {
@@ -115,8 +122,10 @@
     </nav>
     <hr>
     <div>
-      <p> Saksham Yadav</p>   
+      <p>Saksham Yadav</p>   
+    </div>
   </header>
+
   <main> 
     <section>
       <b> About Me</b>
@@ -139,7 +148,7 @@ Over the next few years, I aim to deepen my expertise, contribute to open-source
           <h3>1. Mathematical Expression Evaluator 
             <a href="https://github.com/SkySaksham/math-expression-evaluator" target="_blank">GitHub</a>
           </h3>
-          <img src="DummyPicture.png" alt=" image" height="180">
+          <img src="DummyPicture.png" alt=" image">
         </div>
         <p>
           A custom-built Python program that parses and evaluates complex mathematical expressions with support for brackets, operator precedence (PEMDAS), and nested operations — developed entirely without external libraries, showcasing core algorithmic and parsing logic.     
@@ -158,5 +167,3 @@ Over the next few years, I aim to deepen my expertise, contribute to open-source
   </footer>
 </body>
 </html>
-
-
