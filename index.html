@@ -46,8 +46,6 @@
       margin: 40px auto;
       background-color: white;
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-      border-left: 8px solid #1abc9c;
-      border-right: 8px solid #1abc9c;
     }
 
     section {
@@ -106,6 +104,7 @@
 
     u {
       text-decoration-thickness: 2px;
+      text-decoration: none;
     }
 
     ul {
@@ -132,16 +131,18 @@
       <b> About Me</b>
       <article> 
         <p>
-I am a motivated and self-driven pre-university student with a strong foundation in programming and computer science fundamentals. I’ve independently built projects such as a <b><a href = "https://github.com/SkySaksham/math-expression-evaluator" target="_blank"> Mathematical Expression Evaluator </a> </b> in Python, demonstrating my ability to design and implement custom logic without relying on external libraries.
-
-Currently, I’m focused on expanding my technical skill set by learning <b>HTML, CSS, and JavaScript</b> followed by <b>Flask, Django, and React</b>, with the goal of becoming a full-stack developer. My approach emphasizes building real-world, functional projects that reflect both technical depth and practical problem-solving.
-
-Over the next few years, I aim to deepen my expertise, contribute to open-source software, and build a strong portfolio that reflects my growth and capabilities. My long-term objective is to secure opportunities at leading product-based companies or pursue graduate studies at globally recognized institutions.
-</p>
+          I’m Saksham Yadav — a <b>self-taught</b>, passionate developer with a strong foundation in Python and problem-solving. My journey into programming began out of pure curiosity during high school, where I built my first full-fledged project: <b>CineBook</b>, a terminal-based Movie Reservation System that handles user and staff interactions, seat booking, and ticket generation.
+          <br><br>
+          Recently, I developed a <b>Mathematical Expression Evaluator</b>, built entirely from scratch in Python. It parses and evaluates complex expressions, handling nested brackets, operator precedence (PEMDAS), and edge cases — all without relying on any external libraries.
+          <br><br>
+          I learn independently, by building real-world projects and challenging myself to solve problems from first principles. Currently, I’m exploring <b>front-end development</b> with HTML, CSS, and JavaScript, and plan to move into <b>Flask</b>, <b>Django</b>, and <b>React</b> for full-stack development.
+          <br><br>
+          My approach is simple: <b>build real things</b>, go deep into logic, and keep leveling up.
+        </p>
       </article>
     </section>
     <hr>
-    
+
     <section class="projects"> 
       <article>
         <div>
@@ -149,7 +150,7 @@ Over the next few years, I aim to deepen my expertise, contribute to open-source
           <h3>1. Mathematical Expression Evaluator 
             <a href="https://github.com/SkySaksham/math-expression-evaluator" target="_blank">GitHub</a>
           </h3>
-          <img src="DummyPicture.png" alt=" image">
+          <img src="DummyPicture.png" alt="Expression Evaluator image">
         </div>
         <p>
           A custom-built Python program that parses and evaluates complex mathematical expressions with support for brackets, operator precedence (PEMDAS), and nested operations — developed entirely without external libraries, showcasing core algorithmic and parsing logic.     
@@ -158,7 +159,24 @@ Over the next few years, I aim to deepen my expertise, contribute to open-source
         <div><b>•</b> Developed a recursive <b>expression parser</b> without using external libraries.</div>
         <div><b>•</b> Handles edge cases like negative numbers, multiple operators, and invalid syntax.</div>
         <div><b>•</b> Designed with modular, extensible architecture to support future features (e.g., variables, functions like `sin`, `log`).</div>
-        <div><b>•</b> Demonstrates strong understanding of core computer science concepts like parsing, recursion, and error handling.</div>                       
+        <div><b>•</b> Demonstrates strong understanding of core computer science concepts like parsing, recursion, and error handling.</div>
+      </article>
+
+      <article>
+        <br>
+        <h3>2. CineBook: Terminal-Based Movie Reservation System
+          <a href="https://github.com/SkySaksham/Cinebook_Movie_Reservation_System" target="_blank">GitHub</a>
+        </h3>
+        <img src="cinebook.png" alt="CineBook project">
+        <p>
+          CineBook is a Python-based terminal reservation system that allows users to book seats for movies and enables staff to add new movies to the theatre list. Built with a creative UI using ASCII graphics and <code>colorama</code>, it simulates a real cinema booking flow for both customers and administrators.
+        </p>
+        <div><b>•</b> Developed in high school as one of my first large Python projects.</div>
+        <div><b>•</b> Interactive seat booking with visually structured layout using ASCII art and colored output.</div>
+        <div><b>•</b> Staff login feature to add new movies to the listing.</div>
+        <div><b>•</b> Ticket generation with personalized details and pricing logic.</div>
+        <div><b>•</b> Supports both staff and customer workflows in one system.</div>
+        <div><b>•</b> Built purely with Python standard modules — no external frameworks.</div>
       </article>
     </section>
   </main>
